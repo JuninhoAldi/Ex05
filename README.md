@@ -1,1 +1,2 @@
 # Ex05
+Cada tipo de notificação implementa a interface Notification com o método send(), e o código principal pode chamar esse método sem se preocupar com o tipo de notificação. O Factory Method Pattern está na classe NotificationFactory, que cria dinamicamente a instância da notificação escolhida, permitindo que novos tipos de notificações sejam adicionados facilmente sem modificar o código principal.
